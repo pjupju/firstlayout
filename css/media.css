@@ -1,0 +1,51 @@
+@media (max-width: 960px) {
+    .navigation {
+        padding: 40px;
+    }
+    .logo > i {
+        font-size: 20px;
+        color: black;
+    }
+    .flexbox-block {
+        padding: 50px 100px;
+    }
+    .menu > ul {
+        display: flex;
+        justify-content: center;
+    }
+    .menu > ul > li {
+        padding: 0;
+    }
+    .menu > ul > li > a {
+        padding: 10px 20px;
+    }
+    .template {
+        padding: 40px;
+    }
+    .template-text {
+        font-size: 48px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flexbox-item {
+        padding: 15px 0;
+    }
+    .flexbox-item > h3 {
+        padding: 5px 0;
+    }
+    .flexbox-item > img {
+        width: 200px;
+        height: auto;
+    }
+    .flexbox-item > p {
+        font-size: 16px;
+        font-weight: 700;
+    }
+}

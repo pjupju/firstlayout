@@ -35,8 +35,6 @@ a {
     font-weight: 700;
     margin-left: 15px;
 }
-
-
 .menu > ul {
     display: flex;
     justify-content: space-around;
@@ -93,7 +91,7 @@ a {
 
 .flexbox-block {
    background-color: #fff;
-   padding: 50px 200px;
+   padding: 50px 225px;
 }
 .flexbox {
     display: flex;
@@ -104,6 +102,9 @@ a {
 }
 .flexbox-item {
     max-width: 350px;
+}
+.flexbox-item > h3 {
+    padding: 5px 0;
 }
 .flexbox-item > img {
     width: 250px;
