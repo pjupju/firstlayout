@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900|Source+Sans+Pro:400,700,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: rgb(178, 250, 240);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo > i {
+    font-size: 28px;
+    color: black;
+}
+.logo > span {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+
+.menu > ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu > ul > li {
+    padding: 0 20px;
+    color: black;
+}
+.menu > ul > li > a {
+    font-size: 20px;
+    color: black;
+    padding: 10px 30px;
+}
+.menu > ul > li > a:hover {
+    color: rgb(178, 250, 240);
+    background-color: black;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.template {
+    padding: 50px 200px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.template-text {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    margin-right: 200px;
+    text-align: center;
+}
+.template-img > img {
+    width: 400px;
+    height: auto;
+}
+.circles {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.cirlces > i > .fa, .fas {
+    font-size: 20px;
+    color: white;
+}
+.cirlces > i > .fa, .far, .fas {
+    font-size: 20px;
+    color: white;
+    padding: 0 10px;
+}
+
+.flexbox-block {
+   background-color: #fff;
+   padding: 50px 200px;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+}
+.flexbox-item {
+    max-width: 350px;
+}
+.flexbox-item > img {
+    width: 250px;
+    height: auto;
+}
